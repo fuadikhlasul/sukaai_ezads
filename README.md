@@ -1,7 +1,7 @@
 # EZAds
 -- by SukaAI
 
-**EZAds** is an GenAI-powered advertising solution proposed by **SukaAI** team from Telkomsel - to empower existing one of Telkomsel product called **MyAds** to help its new users to create ad content easily.
+<p>**EZAds** is an GenAI-powered advertising solution proposed by **SukaAI** team from Telkomsel - to empower existing one of Telkomsel product called **MyAds** to help its new users to create ad content easily.</p>
 
 SukaAI team:
 - Fuad Ikhlasul Amal - Machine Learning Engineer - **Hacker**
@@ -12,11 +12,13 @@ SukaAI team:
 
 A. Mobile
 
-<img src="https://github.com/user-attachments/assets/218b2991-2a8b-4876-9f36-19f08cb61587" width="10%">
+<img src="https://github.com/user-attachments/assets/218b2991-2a8b-4876-9f36-19f08cb61587" width="35%">
+
+<br>
 
 B. Web App
 
-<img src="https://github.com/user-attachments/assets/3143d17c-583a-4584-b880-cf97179e8d28" width="25%">
+<img src="https://github.com/user-attachments/assets/3143d17c-583a-4584-b880-cf97179e8d28" width="45%">
 
 ## The demo (Python streamlit app)
 
