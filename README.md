@@ -12,11 +12,11 @@ SukaAI team:
 
 A. Mobile
 
-<img src="https://your-hosted-image.com/image.png](https://github.com/user-attachments/assets/218b2991-2a8b-4876-9f36-19f08cb61587" width="5%">
+<img src="https://github.com/user-attachments/assets/218b2991-2a8b-4876-9f36-19f08cb61587" width="10%">
 
 B. Web App
 
-<img src="https://github.com/user-attachments/assets/3143d17c-583a-4584-b880-cf97179e8d28" width="5%">
+<img src="https://github.com/user-attachments/assets/3143d17c-583a-4584-b880-cf97179e8d28" width="25%">
 
 ## The demo (Python streamlit app)
 
