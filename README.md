@@ -22,7 +22,7 @@ A. Mobile
 
 B. Web App
 
-<img src="https://github.com/user-attachments/assets/3143d17c-583a-4584-b880-cf97179e8d28" width="85%">
+<img src="https://github.com/user-attachments/assets/3143d17c-583a-4584-b880-cf97179e8d28" width="95%">
 
 ## The demo (Python streamlit app)
 
