@@ -18,7 +18,7 @@ A. Mobile
 
 <img src="https://github.com/user-attachments/assets/218b2991-2a8b-4876-9f36-19f08cb61587" width="35%">
 
-<br>
+<br><br>
 
 B. Web App
 
