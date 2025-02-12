@@ -1,7 +1,41 @@
 import streamlit as st
+import requests
+import re
+import json
 
 def generate(**params):
-    return params
+    API_BASE_URL = 'https://internal-alb-galilei-preprod-private-221671690.ap-southeast-3.elb.amazonaws.com/v1'
+    API_KEY = 'app-doqtZJT09Wlau8D1nUB3JVVB'
+
+    headers = {
+        'Authorization': f'Bearer {API_KEY}',
+        'Content-Type': 'application/json'
+    }
+
+    prompt = '''
+    Tolong beri maksimal 5 opsi konten iklan yang sangat cocok untuk kanal SMS atau WhatsApp.
+    Pastikan keyword atau kata-katanya persuasif, mendorong audience untuk engage dengan konten, dan bisa jadi konten viral.
+    Pastikan juga keyword yang digunakan sedikit clickbait dan mudah diingat dengan jargon-jargon yang sesuai dengan produk.
+    Konten iklan ini dibuat untuk bisnis {} bernama "{}" dengan produknya yaitu "{}".
+    Tujuan dari iklan ini yaitu "{}", kemudian gunakan bahasa yang mudah dicerna dan fit dengan target audience dengan
+    segmen usia "{}".
+    '''.format(params['lob'], params['biz_name'], params['ads_about'], params['ad_purpose'], params['base_segment'])
+
+    payload = {
+        'inputs': {},
+        'query': prompt,
+        'response_mode': 'blocking',
+        'conversation_id': '',
+        'user': 'sukaai_ezads_client_001',
+        'files': []
+    }
+
+    response = requests.post(f'{API_BASE_URL}/chat-messages', headers=headers, json=payload, verify=False)
+
+    if response.status_code == 200:
+        return json.loads(response.text)['answer']
+    else:
+        return {'status': response.status_code, 'message': response.text}
 
 def main():
     st.title('EZAds Simulator')
@@ -64,7 +98,7 @@ def main():
     
     if submitted:
         result = generate(**input_args)
-        st.success('Result: ' + str(result))
+        st.success('Berikut adalah 5 top picks konten dengan capaian iklan tertinggi: \n' + str(result))
 
 if __name__ == '__main__':
     main()
