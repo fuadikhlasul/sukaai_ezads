@@ -8,7 +8,7 @@ SukaAI team:
 - Amri Alqoqi - UI/UX - **Hipster**
 - Fajar Fakhruddin - External Data Monetization Officer - **Hustler**
 
-<p>You can access our presentation deck <a href="https://www.figma.com/design/rarWupkjKu73n9Do5H9ejX/Spark-2025?node-id=78-5082&t=jrxo1qB2UkKRP4yV-0" target="_blank"> here </a> </p>
+<p>You can access our presentation deck <a href="https://docs.google.com/presentation/d/125JFm2MfQb28K13G5uZUGBoQmPIpUAQF-jQC2_l_Vt0/edit?usp=sharing" target="_blank"> here </a> </p>
 
 ## The high level concept
 
@@ -22,7 +22,7 @@ A. Mobile
 
 B. Web App
 
-<img src="https://github.com/user-attachments/assets/3143d17c-583a-4584-b880-cf97179e8d28" width="95%">
+<img src="https://github.com/user-attachments/assets/3143d17c-583a-4584-b880-cf97179e8d28">
 
 ## The demo (Python streamlit app)
 
